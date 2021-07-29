@@ -1,0 +1,13 @@
+@model IEnumerable<Hobby>
+    
+<h1>Hobby Hub</h1>
+
+<a asp-action="Logout" asp-controller="Home">Logout</a>
+<div class="box">
+    <h2>Hobbies</h2>
+    @foreach(var hob in Model)
+    {
+        <p><a asp-action="Show" asp-controller="Hobbies" asp-route-hobbyId="@hob.HobbyId">@hob.HobbyName</a></p>
+    }
+</div>
+<a asp-action="New" asp-controller="Hobbies">Add a hobby</a>

@@ -1,0 +1,6 @@
+C:\Users\Mark'\c#\Hobbies\obj\Debug\netcoreapp3.0\Hobbies.csprojAssemblyReference.cache
+C:\Users\Mark'\c#\Hobbies\obj\Debug\netcoreapp3.0\Hobbies.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mark'\c#\Hobbies\obj\Debug\netcoreapp3.0\Hobbies.RazorAssemblyInfo.cache
+C:\Users\Mark'\c#\Hobbies\obj\Debug\netcoreapp3.0\Hobbies.RazorAssemblyInfo.cs
+C:\Users\Mark'\c#\Hobbies\obj\Debug\netcoreapp3.0\Hobbies.AssemblyInfoInputs.cache
+C:\Users\Mark'\c#\Hobbies\obj\Debug\netcoreapp3.0\Hobbies.AssemblyInfo.cs

@@ -1,0 +1,24 @@
+@model Hobby
+
+<h1>@Model.HobbyName</h1>
+<a asp-action="Logout" asp-controller="Home">Logout</a> | 
+<a asp-action="Index" asp-controller="Hobbies">Back</a>
+<p><strong>Description:</strong> @Model.Description</p>
+
+
+<div class="flexy">
+    <div>
+        <h3>Enthuisasts</h3>
+        @foreach(var assoc in Model.Associations)
+        {
+            <p>@assoc.User.FirstName @assoc.User.UserId</p>
+        }
+    </div>
+    <div>
+        <h3>Become and Enthusiast</h3>
+        <a asp-action="Create" 
+        asp-controller="Association" 
+        asp-route-hobbyId="@Model.HobbyId"
+        asp-route-status="add">Add to Hobbies</a>
+    </div>
+</div>
